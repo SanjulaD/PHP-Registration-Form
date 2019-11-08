@@ -1,0 +1,30 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.container
+{
+  background-color: rgb(187, 156, 62);
+  margin-top: 6%;
+}
+#contact-form
+{
+  padding: 10px;
+
+}
+.form-group
+{
+  padding: 10px;
+}
+#form_name
+{
+  text-align: center;
+}
+#form_message
+{
+  background-color: rgb(104, 185, 218);
+}
+#msg
+{
+  background-color: ;
+}
