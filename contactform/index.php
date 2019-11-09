@@ -20,14 +20,14 @@
                       <div class="col-md-6">
                         <div class="form-group">
                           <label for="form_name">First Name *</label>
-                          <input id="form_name" type="text" name="name" class="form_control" placeholder="Please enter user name" required="required" data-error="First Name is required">
+                          <input id="form_name" type="text" name="name" class="form_control" placeholder="Please enter user name" required data-error="First Name is required">
                           <div class="help-block with-errors"></div>
                         </div>
                       </div>
                       <div class="col-md-6">
                         <div class="form_group">
                           <label for="form_lastname">Last Name *</label>
-                          <input type="text" name="surname" id="form_lastname" placeholder="Please enter Last Name" required="required" data-error="Last Name is required">
+                          <input type="text" name="surname" id="form_lastname" placeholder="Please enter Last Name" required data-error="Last Name is required">
                           <div class="help-block with-errors"></div>
                         </div>
                       </div>
@@ -37,14 +37,14 @@
                     <div class="col-md-6">
                       <div class="form-email">
                         <label for="form_email">E-Mail*</label>
-                        <input type="email" id="form_email" name="email" class="form_control" placeholder="Please enter email" required="required" data-error="E-Mail is required">
+                        <input type="email" id="form_email" name="email" class="form_control" placeholder="Please enter email" required data-error="E-Mail is required">
                         <div class="help-block with-errors"></div>
                       </div>
                     </div>
                     <div class="col-md-6">
                       <div class="form_group">
                         <label for="form_need">Please Specify your need*</label>
-                        <select name="need" id="form_need" placeholder="Please enter your need" required="required" data-error="Please Specify your need">
+                        <select name="need" id="form_need" placeholder="Please enter your need" required" data-error="Please Specify your need">
                         <option value=""></option>
                         <option value="Reqeust Quotation">Request Quotation</option>
                         <option value="Reqeust Order Status">Reqeust Order Status</option>
